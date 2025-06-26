@@ -16,6 +16,7 @@ public class Atletas {
         for (int i = 1; i <= n; i++) {
             System.out.printf("Digite os dados do atleta numero %d: \n", i);
             System.out.print("Nome: ");
+            sc.nextLine();
             nome = sc.nextLine();
             System.out.print("Sexo: ");
             sexo = sc.next().toUpperCase();
